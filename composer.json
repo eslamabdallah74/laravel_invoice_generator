@@ -1,0 +1,41 @@
+{
+    "name": "your-vendor/laravel-invoice-generator",
+    "description": "A Laravel package for generating customizable PDF invoices.",
+    "keywords": ["laravel", "invoice", "pdf", "generator", "composer"],
+    "homepage": "https://github.com/your-vendor/laravel-invoice-generator",
+    "license": "MIT",
+    "type": "laravel-package",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@example.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0",
+        "dompdf/dompdf": "^2.0",
+        "simplesoftwareio/simple-qrcode": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\LaravelInvoiceGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourVendor\\LaravelInvoiceGenerator\\InvoiceServiceProvider"
+            ],
+            "aliases": {
+                "Invoice": "YourVendor\\LaravelInvoiceGenerator\\Facades\\Invoice"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
+
