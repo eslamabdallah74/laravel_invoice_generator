@@ -1,5 +1,5 @@
 {
-    "name": "your-vendor/laravel-invoice-generator",
+    "name": "eslam-abass/laravel-invoice-generator",
     "description": "A Laravel package for generating customizable PDF invoices.",
     "keywords": ["laravel", "invoice", "pdf", "generator", "composer"],
     "homepage": "https://github.com/your-vendor/laravel-invoice-generator",
@@ -7,8 +7,8 @@
     "type": "laravel-package",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your@example.com"
+            "name": "eslam abdallah abass",
+            "email": "eslamabdallah301@gmail.com"
         }
     ],
     "require": {
